@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748191726057",
+    "project_id": "wedbliss-332305",
+    "storage_bucket": "wedbliss-332305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748191726057:android:571993c34e5d3ee41af378",
+        "android_client_info": {
+          "package_name": "com.example.admobwedbliss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748191726057-16fuig2p4f0nfed3rbe9v2rr80q1m8q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfuJo1HW86Dzv8edHVyHyeXhL9nOFYeYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748191726057-16fuig2p4f0nfed3rbe9v2rr80q1m8q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

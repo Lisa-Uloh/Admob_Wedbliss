@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Admob Wedbliss</string>
+    <string name="load_banner">Load Banner</string>
+    <string name="show_banner">Show Banner</string>
+    <string name="hide_banner">Hide Banner</string>
+    <string name="load_int">Load Int</string>
+    <string name="show_int">Show Int</string>
+</resources>

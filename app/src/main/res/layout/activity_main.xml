@@ -1,0 +1,72 @@
+<?xml version=  "1.0" encoding=  "utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android=  "http://schemas.android.com/apk/res/android"
+
+    xmlns:tools=  "http://schemas.android.com/tools"
+    android:layout_width=  "match_parent"
+    android:layout_height=  "match_parent"
+    tools:context=  ".MainActivity">
+
+    <!-- Banner AdView -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6621972779022409/3766314995" />
+
+    <!-- vertical linear layout contain 3 button -->
+    <LinearLayout
+        android:layout_centerInParent= "true"
+        android:layout_margin= "16dp"
+        android:orientation= "vertical"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content">
+
+        <!-- Simple Buttons to Load Ad when clicked -->
+        <Button
+            android:textSize= "24sp"
+            android:layout_margin= "16dp"
+            android:id= "@+id/loadBannerBtn"
+            android:text= "@string/load_banner"
+            android:fontFamily= "monospace"
+            android:textStyle= "bold"
+            android:textColor= "#ffffff"
+            android:background= "@color/black"
+            android:layout_width= "match_parent"
+            android:layout_height= "60dp"/>
+
+        <!-- Simple Buttons to Show  Ad when clicked -->
+        <Button
+            android:id="@+id/showBannerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            android:background="@color/teal_200"
+            android:fontFamily="monospace"
+            android:text="@string/show_banner"
+            android:textColor="#546E7A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Simple Buttons to Hide Ad when clicked -->
+        <Button
+            android:textSize= "24sp"
+            android:layout_margin= "16dp"
+            android:id= "@+id/hideBannerBtn"
+            android:text= "@string/hide_banner"
+            android:fontFamily= "monospace"
+            android:textStyle= "bold"
+            android:textColor= "#ffffff"
+            android:background= "@color/purple_500"
+            android:layout_width= "match_parent"
+            android:layout_height= "60dp"/>
+
+        <!-- Simple Buttons to Load Interstitial Ad when clicked -->
+
+
+    </LinearLayout>
+
+</RelativeLayout>

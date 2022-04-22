@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android=  "http://schemas.android.com/apk/res/android"
+    xmlns:app=  "http://schemas.android.com/apk/res-auto"
+    xmlns:tools=  "http://schemas.android.com/tools"
+    android:layout_width=  "match_parent"
+    android:layout_height=  "match_parent"
+    tools:context=  ".InterstitialAdActivity">
+
+    <!-- vertical linear layout with 2  button -->
+    <LinearLayout
+        android:layout_centerInParent= "true"
+        android:layout_margin= "16dp"
+        android:orientation= "vertical"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content">
+
+        <!-- Simple Buttons to Load Interstitial Ad when clicked -->
+        <Button
+            android:textSize= "24dp"
+            android:layout_margin= "16dp"
+            android:id= "@+id/loadInterstitialBtn"
+            android:text= "Load Interstitial  Ad"
+            android:fontFamily= "serif"
+            android:textStyle= "bold"
+            android:textColor= "#ffffff"
+            android:background= "#800080"
+            android:layout_width= "match_parent"
+            android:layout_height= "60dp"/>
+
+        <!-- Simple Buttons to Show  Interstitial Ad it is is loaded when clicked -->
+        <Button
+            android:textSize= "24dp"
+            android:layout_margin= "16dp"
+            android:id= "@+id/showInterstitialBtn"
+            android:text= "Show Interstitial  Ad"
+            android:fontFamily= "serif"
+            android:textStyle= "bold"
+            android:textColor= "#ffffff"
+            android:background= "#800080"
+            android:layout_width= "match_parent"
+            android:layout_height= "60dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
